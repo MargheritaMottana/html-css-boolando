@@ -7,3 +7,64 @@
 
     font-family: sans-serif;
 }
+
+/* GENERAL */
+
+.container {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.column-2-5 {
+    width: calc((100% / 5) * 2);
+}
+
+.column-3-5 {
+    width: calc((100% / 5) * 3);
+}
+
+.justify-cont-r {
+    justify-content: right;
+}
+
+.justify-cont-l {
+    justify-content: left;
+}
+
+/* HEADER */
+
+header {
+    background-color: #FF6800;
+}
+
+header .container div {
+    display: flex;
+    color: white;
+    padding: 10px 0;
+}
+
+header .column-3-5 {
+    justify-content: center;
+}
+
+header img {
+    max-width: 120px;
+}
+
+.column-2-5 nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.column-2-5 nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.column-2-5 i {
+    padding: 0 10px;
+}
+
+/* MAIN */
