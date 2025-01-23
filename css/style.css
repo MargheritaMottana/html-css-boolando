@@ -68,20 +68,32 @@ header img {
     max-width: 120px;
 }
 
+header img:hover {
+    filter: invert(100%);
+}
+
 .column-2-5 nav ul {
     list-style: none;
     display: flex;
 }
 
 .column-2-5 nav ul li a {
-    text-decoration: none;
-    color: white;
     display: inline-block;
     padding: 0 10px;
 }
 
 .column-2-5 i {
     padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
 }
 
 /* MAIN */
